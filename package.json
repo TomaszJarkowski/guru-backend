@@ -4,9 +4,9 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "postinstall": "rimraf build && tsc",
+        "postinstall": "tsc",
         "build": "rimraf build && tsc",
-        "start": "rimraf build && tsc && node build/index.js"
+        "start": "node build/index.js"
     },
     "author": "",
     "license": "ISC",
