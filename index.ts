@@ -35,9 +35,9 @@ app.get('/', (req: Request, res: Response) => {
 mongoose.connect(
     process.env.DB_CONNECT as string,
     {
-        useNewUrlParser: true,
-        useUnifiedTopology: true,
-        useCreateIndex: true
+        // useNewUrlParser: true,
+        // useUnifiedTopology: true,
+        // useCreateIndex: true
     },
     (err) => {
         if (err) throw err;

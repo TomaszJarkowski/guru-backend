@@ -17,12 +17,11 @@
         "express": "4.17.1",
         "http-status-codes": "2.1.4",
         "jsonwebtoken": "8.5.1",
-        "mongoose": "5.12.7",
+        "mongoose": "6.11.1",
         "validator": "13.6.0"
     },
     "devDependencies": {
         "@types/bcrypt": "5.0.0",
-        "@types/bson": "^4.2.0",
         "@types/cors": "2.8.10",
         "@types/express": "4.17.11",
         "@types/jsonwebtoken": "8.5.1",
